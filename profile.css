@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 10;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    color: #f14b4b;
+    text-align: right;
+    display: table-row;
+    align-items: normal;
+    flex-direction: column;
+
+}
+header *{
+    display:inline;
+    height:50px;
+}
+
+header ul{
+    padding: 0;
+}
+header li{
+    margin-left: 20px
+}
+.logo{
+    font-size: 25px;
+    color: #1b1515;
+    text-decoration-line: underline;
+    font-weight: 600;
+}
+
+nav a{
+    font-size: 20px;
+    color: #0d0c0c;
+    font-weight: 50;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active{
+    color: rgb(199, 49, 117);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    font-display: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url('134.webp');
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+section:nth-child(odd){
+    background: linear-gradient(rgb(225, 53, 248),rgb(222, 140, 46), rgba(222, 47, 82, 0.934));
+
+}
+#princess .barbie {
+    width: 250px;
+    border-bottom: #3674e7;
+    border-radius: 60%;
+    border-width: 60%;
+}
+footer{
+    background-color: #cdcdcd;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    padding: 15px;
+}
+header .docs{
+    width: 70px;
+    height: 40px;
+    border-radius: 30%;
+}
+section h2{
+    font-size: 1,5em;
+    justify-content: center;
+
+}
+section h3{
+    font-size: 1,5em;
+}
+header a{
+    text-decoration-color: #1f242d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 8em;
+    color: rgb(10, 8, 10);
+}
+#princess{
+    color: #0b0b0d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:url('po.avif');
+    background-size: cover;
+}
+#about.section-inner{
+    font-display: flex;
+    background-image: linear-gradient(rgba(190, 59, 59, 0.75),rgba(246, 255, 66, 0.75));
+
+}
